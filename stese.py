@@ -4,7 +4,7 @@ import json
 def menu_stesa(file_json):
     while True:
         # Stampa del menu
-        print("1. Stesa del futuro")
+        print("1. Stesa dei tarocchi del futuro")
         print("2. Opzione 2")
         print("3. Opzione 3")
         print("4. Esci")
@@ -80,7 +80,6 @@ def metodo_celtica_semplice(file_json):
         print(f"Fondo mazzo 2: {carte_estratte[6]['Titolo']} - {carte_estratte[6]['BreveDescrizione']}")
         print(f"Fondo mazzo 3: {carte_estratte[7]['Titolo']} - {carte_estratte[7]['BreveDescrizione']}")
 
-        print("-" * 40)
     
     # Gestione eventuali errori
     except (FileNotFoundError, json.JSONDecodeError):
@@ -114,7 +113,6 @@ def metodo_celtica_completa(file_json):
         print(f"Speranze o paure: {carte_estratte[8]['Titolo']} - {carte_estratte[8]['BreveDescrizione']}")
         print(f"Risultato nel lontano futuro: {carte_estratte[9]['Titolo']} - {carte_estratte[9]['BreveDescrizione']}")
 
-        print("-" * 40)
     
     # Gestione eventuali errori
     except (FileNotFoundError, json.JSONDecodeError):
