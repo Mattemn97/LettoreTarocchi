@@ -1,7 +1,6 @@
-import random
 import json
 
-import stese_futuro
+import metodi_futuro
 
 file_descrizione_stese = "descrizione_stese.json"
 
@@ -15,7 +14,7 @@ def menu_stesa():
         # Stampa del menu
         while True:
             for stesa in descr_stese:
-                print(f"ID {stesa['Identificativo']}. {stesa['Titolo']}")
+                print(f"{stesa['Identificativo']}. {stesa['Titolo']}")
             
             scelta = int(input("Scegli una stesa: "))
 

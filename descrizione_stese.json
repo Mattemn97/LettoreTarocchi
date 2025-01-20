@@ -1,14 +1,23 @@
 [
   {
-    "Titolo": "Stesa dei tarocchi del futuro",
+    "Titolo": "Stesa giornaliera dei tarocchi",
     "Identificativo": 1,
-    "Descrizione": "La stesa dei Tarocchi per il futuro evidenzia eventi chiave, ma dipende dalle carte e dalle abilità del praticante. La responsabilità dell'interrogante è fondamentale, poiché crea il proprio destino.",
-    "Funzione": "stese_futuro.menu_metodi()"
-  },
-  {
-    "Titolo": "Stesa dei tarocchi del cazzo",
+    "Funzione": "metodi_giornaliere.menu_metodi()"
+  },  {
+    "Titolo": "Stesa settimanale dei tarocchi",
     "Identificativo": 2,
-    "Descrizione": "La stesa dei Tarocchi per il futuro evidenzia eventi chiave, ma dipende dalle carte e dalle abilità del praticante. La responsabilità dell'interrogante è fondamentale, poiché crea il proprio destino.",
-    "Funzione": "stese_cazzo.menu_metodi()"
+    "Funzione": "metodi_settimanale.menu_metodi()"
+  },  {
+    "Titolo": "Stesa mensile dei tarocchi",
+    "Identificativo": 3,
+    "Funzione": "metodi_mensile.menu_metodi()"
+  },  {
+    "Titolo": "Stesa annuale dei tarocchi",
+    "Identificativo": 4,
+    "Funzione": "metodi_annuale.menu_metodi()"
+  },  {
+    "Titolo": "Stesa dei tarocchi del futuro",
+    "Identificativo": 5,
+    "Funzione": "metodi_futuro.menu_metodi()"
   }
 ]
