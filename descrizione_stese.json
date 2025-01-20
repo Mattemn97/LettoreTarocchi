@@ -1,0 +1,14 @@
+[
+  {
+    "Titolo": "Stesa dei tarocchi del futuro",
+    "Identificativo": 1,
+    "Descrizione": "La stesa dei Tarocchi per il futuro evidenzia eventi chiave, ma dipende dalle carte e dalle abilità del praticante. La responsabilità dell'interrogante è fondamentale, poiché crea il proprio destino.",
+    "Funzione": "stese_futuro.menu_metodi()"
+  },
+  {
+    "Titolo": "Stesa dei tarocchi del cazzo",
+    "Identificativo": 2,
+    "Descrizione": "La stesa dei Tarocchi per il futuro evidenzia eventi chiave, ma dipende dalle carte e dalle abilità del praticante. La responsabilità dell'interrogante è fondamentale, poiché crea il proprio destino.",
+    "Funzione": "stese_cazzo.menu_metodi()"
+  }
+]
